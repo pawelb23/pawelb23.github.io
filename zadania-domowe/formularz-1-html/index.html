@@ -24,7 +24,7 @@
         <label for="numer-telefonu">Numer Telefonu</label><br>
         <input type="tel" id="numer-telefonu" name="numer-telefonu">
         <br><br>
-        
+
         <label for="wybor-miasta">Wybór miasta</label><br>
         <select id="wybor-miasta">
          <option value="krakow">Kraków</option>
@@ -32,14 +32,19 @@
          <option value="gdansk">Gdańsk</option>
         </select>
         <br><br>
-        
-        <input id="zgoda" type="checkbox" name="zgoda" value="ok">Zgoda na dane osobowe<br><br><br>
-        
+
+        <label for="plec">Płeć</label><br>
+        <div><input id="plec" type="radio" name="gender" value="male">Mężczyzna<br>
+        <input type="radio" name="gender" value="female">Kobieta</div>
+        <br><br>
+
+        <input type="checkbox" name="zgoda" value="ok">Zgoda na dane osobowe<br><br><br>
+
         <label for="wiadomosc"> Wiadomość</label><br>
         <textarea maxlength="250" id="wiadomosc"></textarea>
         <br><br>
-        
-        
+
+
         <input type="submit" value="Wyślij">
         <input type="reset" value="Wyczyść formularz">
     </form>
