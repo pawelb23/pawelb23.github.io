@@ -1,0 +1,25 @@
+body {
+    background-color: aqua;
+}
+
+textarea {
+    width: 400px;
+    height: 200px;
+}
+
+input:hover {
+    background-color: antiquewhite;
+}
+
+select:hover {
+    background-color: antiquewhite;
+}
+
+textarea:hover {
+    background-color: antiquewhite;
+}
+
+textarea::selection {
+    background-color: antiquewhite;
+}
+
