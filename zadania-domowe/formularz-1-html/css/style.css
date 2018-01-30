@@ -19,10 +19,6 @@ textarea:hover {
     background-color: antiquewhite;
 }
 
-textarea::selection {
-    background-color: antiquewhite;
-}
-
 label {
     background-color: aquamarine;
     font-size: 20px;
