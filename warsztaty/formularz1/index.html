@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form action="https://formspree.io/pawelbialek23@op.pl" method="POST">
+        <label for="imie">Imię</label><br>
+        <input type="text" id="imie" name="imie">
+        <br><br>
+
+        <label for="nazwisko">Nazwisko</label><br>
+        <input type="text" id="nazwisko" name="nazwisko">
+        <br><br>
+
+        <label for="email">Email</label><br>
+        <input type="text" id="email" name="email">
+        <br><br>
+
+        <label for="numer-telefonu">Numer Telefonu</label><br>
+        <input type="tel" id="numer-telefonu" name="numer-telefonu">
+        <br><br>
+
+        <label for="wybor-miasta">Wybór miasta</label><br>
+        <select id="wybor-miasta">
+         <option value="krakow">Kraków</option>
+         <option value="warszawa">Warszawa</option>
+         <option value="gdansk">Gdańsk</option>
+        </select>
+        <br><br>
+
+        <label for="plec">Płeć</label><br>
+        <div><input id="plec" type="radio" name="gender" value="male">Mężczyzna<br>
+        <input type="radio" name="gender" value="female">Kobieta</div>
+        <br><br>
+
+        <input type="checkbox" name="zgoda" value="ok" required>Zgoda na dane osobowe<br><br><br>
+
+        <label for="wiadomosc"> Wiadomość</label><br>
+        <textarea maxlength="250" id="wiadomosc" name="wiadomosc"></textarea>
+        <br><br>
+
+        <input type="submit" value="Send">
+    </form>
+</body>
+<!---->
+</html>

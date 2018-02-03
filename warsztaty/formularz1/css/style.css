@@ -1,0 +1,45 @@
+form {
+    background-color:  #213b50;
+    width: 40%;
+    height: 100%;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: 800;
+}
+
+label {
+        font-size: 20px;
+}
+input, select, textarea {
+    background-color: #2b4a64;
+    border: #2b4a64 2px solid;
+}
+
+input:hover, select:hover, textarea:hover {
+     background-color: #4e708c;
+}
+
+input:focus {
+    background-color: #4e708c;
+    border: none;
+}
+
+form select, form input[type="text"], form input[type="tel"], form input [type="email"], form textarea{
+    color: aqua;
+}
+   
+}
+
+textarea {
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: chartreuse;
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+}
+/**/
