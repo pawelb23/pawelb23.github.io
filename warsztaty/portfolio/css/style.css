@@ -1,12 +1,110 @@
-body {
-    background-color: #19820B;}
+/*General style - start*/
 
-* {font-family: 'Lato', sans-serif;
+* {
+
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+body {
+    background-color: #19820B;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+span {
+    color: #1ac056;
+    font-weight: 500;
+}
+
+/*General style - end*/
+
+/*Navigation - start*/
+
+nav#main-nav {
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    top: 0;
+    right: 0;
+}
+
+nav#main-nav > ul {
+    float: right;
+    margin: 0;
+}
+
+nav#main-nav > ul > li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 40px;
+}
+
+nav#main-nav > ul > li a {
+    text-decoration: none;
+    color: #1ac056;
+    font-weight: 300;
+}
+
+nav#main-nav > ul > li a:hover {
     color: #291f1a;
 }
 
-header {
-    font-family: 'Roboto', sans-serif;    
-    font-weight: 300;
+/*Navigation - end*/
+
+/*Main header - start*/
+
+header#main-header {
+    background-image: url("../img/header-background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+
 }
+
+header#main-header .main-header-content {
+    padding: 30vh;
+    text-align: center;
+}
+
+header#main-header .main-header-content h1 {
+    font-size: 4em;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+header#main-header .main-header-content h2 {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+/*Main header - end*/
+
+/*About me*/
+
+section#about {
+    background-color: #f9fcfe;
+    overflow: hidden;
+}
+
+section#about > figure {
+    text-align: center;
+    margin: 0;
+    margin-right: 30px;
+    float: left;
+}
+
+section#about > figure > img {
+    border: 14px solid #fff;
+    border-radius: 15px;
+    max-width: 100%;
+    max-height: 350px;
+}
+
+/*About me - end*/
 
