@@ -1,0 +1,7 @@
+-nawigacja
+-header
+-O mnie
+-Moje umiejêtnoœci
+-Portfolio
+-Kontakt
+-Footer
