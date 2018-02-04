@@ -95,8 +95,10 @@ section#about {
 section#about > figure {
     text-align: center;
     margin: 0;
+/*
     margin-right: 30px;
     float: left;
+*/
 }
 
 section#about > figure > img {
@@ -106,5 +108,29 @@ section#about > figure > img {
     max-height: 350px;
 }
 
+.col-1-2 {
+    width: 50%;
+    float: left;
+}
+
 /*About me - end*/
 
+/*Skills - start*/
+
+section#skills {
+    text-align: center;
+}
+
+section#skills > p {
+    text-align: center;
+}
+
+section#skills #skills-icons figure {
+    display: inline-block;
+}
+
+section#skills #skills-icons figure figcaption {
+    text-transform: uppercase;
+}
+
+/*Skills - end*/
