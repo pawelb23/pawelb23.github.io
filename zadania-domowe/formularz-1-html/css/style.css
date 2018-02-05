@@ -1,5 +1,5 @@
 body {
-    background-color: aqua;
+    background-color: darkcyan;
 }
 
 textarea {
@@ -7,20 +7,30 @@ textarea {
     height: 200px;
 }
 
-input:hover {
+input:hover, select:hover, textarea:hover {
     background-color: antiquewhite;
 }
 
-select:hover {
-    background-color: antiquewhite;
-}
-
-textarea:hover {
+input:focus, select:focus, textarea:focus {
     background-color: antiquewhite;
 }
 
 label {
-    background-color: aquamarine;
+    background-color: darkturquoise;
     font-size: 20px;
 }
+
+input[type="submit"] {
+    background-color: greenyellow;
+    border: solid 2px green;
+}
+
+input[type="submit"]:hover {
+    background-color: green;
+}
+
+div p.plec {
+    margin-bottom: 3px;
+}
+
 /**/
