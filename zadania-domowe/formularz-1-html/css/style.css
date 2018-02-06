@@ -1,21 +1,32 @@
 body {
     background-color: darkcyan;
+    width: 900px;
 }
 
 textarea {
     width: 400px;
     height: 200px;
+    resize: none;
 }
 
-input:hover, select:hover, textarea:hover {
+input:hover,
+select:hover,
+textarea:hover {
     background-color: antiquewhite;
 }
 
-input:focus, select:focus, textarea:focus {
+input:focus,
+select:focus,
+textarea:focus {
     background-color: antiquewhite;
 }
 
-label {
+label[for=imie],
+label[for=nazwisko],
+label[for=email],
+label[for=numer-telefonu],
+label[for=wybor-miasta],
+label[for=wiadomosc] {
     background-color: darkturquoise;
     font-size: 20px;
 }
@@ -43,19 +54,23 @@ div p.plec {
     margin-bottom: 3px;
 }
 
-div#plec, div#dane-osobowe {
+div#plec,
+div#dane-osobowe {
     width: 200px;
 }
 
-div#plec:hover, div#dane-osobowe:hover {
+div#plec:hover,
+div#dane-osobowe:hover {
     background-color: cadetblue;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
     cursor: pointer;
 }
 
-textarea {
-    resize: none;
+p.plec {
+    padding-left: 5px;
 }
 /**/
