@@ -55,4 +55,7 @@ input, select, textarea {
     cursor: pointer;
 }
 
+textarea {
+    resize: none;
+}
 /**/
