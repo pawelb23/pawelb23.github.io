@@ -25,12 +25,33 @@ input[type="submit"] {
     border: solid 2px green;
 }
 
+
 input[type="submit"]:hover {
     background-color: green;
+}
+
+input[type="reset"] {
+    background-color: gray;
+    border: solid 2px darkslategray;
+}
+
+input[type="reset"]:hover {
+    background-color: darkslategray;
 }
 
 div p.plec {
     margin-bottom: 3px;
 }
 
+div#plec, div#dane-osobowe {
+    width: 200px;
+}
+
+div#plec:hover, div#dane-osobowe:hover {
+    background-color: cadetblue;
+}
+
+input, select, textarea {
+    cursor: pointer;
+}
 /**/

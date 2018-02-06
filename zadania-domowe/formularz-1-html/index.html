@@ -33,7 +33,7 @@
         </select>
         <br><br>
 
-        <div>
+        <div id="plec">
             <p class="plec">Płeć</p>
             <label for="male"></label>
             <input id="male" type="radio" name="gender" value="male">Mężczyzna<br>
@@ -41,10 +41,11 @@
             <input id="female" type="radio" name="gender" value="female">Kobieta
         </div>
         <br><br>
-
-        <label for="checkbox"></label>
-        <input id="checkbox" type="checkbox" name="zgoda" value="ok" required>Zgoda na dane osobowe<br><br><br>
-
+        <div id="dane-osobowe">
+            <label for="zgoda"></label>
+            <input id="zgoda" type="checkbox" name="zgoda" value="ok" required>Zgoda na dane osobowe
+        </div>
+        <br><br><br>
         <label for="wiadomosc"> Wiadomość</label><br>
         <textarea maxlength="250" id="wiadomosc" name="wiadomosc"></textarea>
         <br><br>
