@@ -3,7 +3,8 @@
     width: 90%;
 }
 
-figcaption, p {
+figcaption,
+p {
     font-size: 15px;
 }
 
@@ -11,25 +12,25 @@ h2 {
     font-size: 30px;
 }
 
-    @media (min-width: 993px) {
-        section#gallery figure {
-            width: 33%;
-        }
-    }
-
-  @media (min-width: 769px) and (max-width: 992px) {
-        section#gallery figure {
-            width: 50%;
-        }
-
-@media (max-width: 768px) {
+@media (min-width: 993px) {
     section#gallery figure {
-        width: 100%;
-    }
-
-
-  @media (max-width: 480px) {
-    section#gallery figure {
-        width: 100%;
+        width: 33%;
     }
 }
+
+@media (min-width: 769px) and (max-width: 992px) {
+    section#gallery figure {
+        width: 50%;
+    }
+
+    @media (max-width: 768px) {
+        section#gallery figure {
+            width: 100%;
+        }
+
+
+        @media (max-width: 480px) {
+            section#gallery figure {
+                width: 100%;
+            }
+        }
