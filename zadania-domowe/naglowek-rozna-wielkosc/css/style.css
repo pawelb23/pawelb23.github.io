@@ -2,13 +2,11 @@ body {
     background-color: black;
 }
 
+
 * {
     box-sizing: border-box;
-}
-
-div {
-    width: auto;
-    height: ;
+    text-transform: uppercase;
+    /*    margin: 0 auto;*/
 }
 
 /*
@@ -21,14 +19,14 @@ div#obraz {
 */
 
 @media (min-width: 1171px) {
-    div#obraz {
+    div.tlo {
         background-image: url(../img/man-1.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         color: white;
-        text-transform: uppercase;
-/*        position: left;*/
+        /*        text-transform: uppercase;*/
+        /*        position: left;*/
         width: 100%;
         height: 100%;
     }
@@ -52,14 +50,36 @@ p.front {
 
 
 @media (min-width: 992px)and (max-width: 1170px) {
-    div#obraz {
+    div.tlo {
         background-image: url(../img/man-2.jpg);
         background-position: center;
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
         color: white;
-        text-transform: uppercase;
-        position: right;
+        /*        text-transform: uppercase;*/
+        /*        position: right;*/
         width: 100%;
         height: 70%;
-        font-size: 50%;
+        border-bottom: 30vh solid white;
+        text-align: right;
+        text-overflow: clip;
+        font-size: 25%;
+    }
+}
+
+@media (max-width: 991px) {
+    div.tlo {
+        background-image: url(../img/man-1.jpg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        color: black;
+        /*        text-transform: uppercase;*/
+        /*        position: right;*/
+        width: 100%;
+        height: 500%;
+        border-bottom: 50vh solid white;
+        font-size: 25%;
+        text-align: center;
+    }
+}
