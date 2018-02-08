@@ -102,12 +102,10 @@ section#about > figure {
 }
 
 section#about > figure > img {
-/*
     border: 14px solid #fff;
     border-radius: 15px;
-*/
     max-width: 100%;
-/*    max-height: 350px;*/
+    max-height: 350px;
 }
 
 .col-1-2 {

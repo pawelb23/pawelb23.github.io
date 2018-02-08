@@ -1,26 +1,44 @@
 body {
     background-color: black;
     margin: 0;
-    overflow-x: hidden;
-    overflow-y: auto;
-    /*    box-sizing: border-box;*/
+
+
+/*            box-sizing: border-box;*/
 }
 
+/*
+div#pole {
+    background-color: aliceblue;
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+}
+*/
 
 * {
 
     text-transform: uppercase;
+    overflow-x: hidden;
+    overflow-y: auto;
     /*    margin: 0 auto;*/
+}
+
+p {
+    padding-left: 25px;
+    padding-right: 50px;
+    z-index: auto;
 }
 
 p.iam {
     /*    padding-bottom: 0;*/
-    font-size: 2vmax;
+    font-size: 30px;
+    padding-top: 300px;
 }
 
 p.front {
     /*    padding-top: 0;*/
-    font-size: 3vmax;
+    font-size: 40px;
     font-weight: 700;
 }
 
@@ -29,11 +47,12 @@ p.front {
     div.tlo {
         background-image: url(../img/man-1.jpg);
         background-position: center;
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
         width: 100vw;
         height: 100vh;
         color: white;
+        font-size: 100%;
         /*        position: left;*/
     }
 }
@@ -47,7 +66,7 @@ p {
     div.tlo {
         background-image: url(../img/man-2.jpg);
         background-position: center;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         color: white;
         /*        position: right;*/
@@ -55,7 +74,8 @@ p {
         height: 70vh;
         border-bottom: 30vh solid white;
         text-align: right;
-        /*        text-overflow: clip;*/
+        font-size: 50%;
+/*                text-overflow: clip;*/
     }
 }
 
@@ -63,7 +83,7 @@ p {
     div.tlo {
         background-image: url(../img/man-1.jpg);
         background-position: center;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         color: black;
         /*        position: right;*/
