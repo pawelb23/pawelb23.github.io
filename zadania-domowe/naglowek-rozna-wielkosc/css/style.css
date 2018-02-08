@@ -27,7 +27,6 @@ div#pole {
 p {
     padding-left: 25px;
     padding-right: 50px;
-    z-index: auto;
 }
 
 p.iam {
@@ -47,7 +46,7 @@ p.front {
     div.tlo {
         background-image: url(../img/man-1.jpg);
         background-position: center;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         width: 100vw;
         height: 100vh;
@@ -92,7 +91,6 @@ p {
         border-bottom: 50vh solid white;
         /*        font-size: 25%;*/
         text-align: center;
-
     }
 }
 
