@@ -10,10 +10,7 @@ p {
     margin: 0;
 }
 
-}
-
-
-@media (min-width: 1171px) {
+/*@media (min-width: 1171px) {*/
     div.tlo {
         background-image: url(../img/man-1.jpg);
         background-position: center;
@@ -37,7 +34,7 @@ p {
         margin-left: 30px;
     }
 
-}
+/*}*/
 
 @media (min-width: 992px)and (max-width: 1170px) {
     div.tlo {
