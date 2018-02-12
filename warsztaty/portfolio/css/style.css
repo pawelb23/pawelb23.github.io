@@ -12,7 +12,12 @@ body {
     margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     text-align: center;
 }
 
@@ -95,7 +100,7 @@ section#about {
 section#about > figure {
     text-align: center;
     margin: 0;
-/*
+    /*
     margin-right: 30px;
     float: left;
 */
@@ -134,3 +139,70 @@ section#skills #skills-icons figure figcaption {
 }
 
 /*Skills - end*/
+
+/*Sekcja portfolio*/
+
+div.portfolio-items {
+    text-align: center;
+    font-size: 0
+}
+
+div#portfolio-item-1 {
+    background-image: url(../img/portfolio1.jpg)
+}
+
+div#portfolio-item-2 {
+    background-image: url(../img/portfolio2.jpg)
+}
+
+div#portfolio-item-3 {
+    background-image: url(../img/portfolio3.jpg)
+}
+
+div.portfolio-items div.portfolio-item {
+    position: relative;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    width: 33.3333%;
+}
+
+div.item-mask {
+    background-color: rgba(42, 61, 79, 0.8);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    font-size: initial;
+}
+
+
+div.item-mask:hover {
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+div.portfolio-items div.portfolio-item div.item-content {
+    position: relative;
+    border: 1px solid #fff;
+    margin: 10px;
+    height: 330px;
+}
+
+div.item-content-inner {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    padding: 5px;
+    color: #fff;
+}
+
+div.item-content-inner a:hover {
+    color: #1ac056;
+}
+
+/*Koniec portfolio*/
