@@ -1,3 +1,6 @@
+'use strict';
+
+
 var tekst = 'jakis tekst';
 
 //tworzenie znacznikow
