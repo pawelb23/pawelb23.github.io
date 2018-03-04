@@ -1,0 +1,36 @@
+/*General style - start*/
+body {
+    color: #777;
+    font-family: 'RobotoSlab', sans-serif;
+    font-style: italic;
+}
+
+/*General style - end*/
+
+#main-nav a.navbar-brand {
+    color: #fff;    
+}
+
+#main-nav .nav-item a, header div#container-head h2, header div#container-head h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header div#container-head h2, h1 
+    
+}
+
+#main-nav .nav-item a:hover {
+    
+}
+
+header {
+    background-image:  url('../img/header/pictures_on_the_wall.jpg');
+    height: 100vh;
+    text-align: center;
+}
+
+div#navbarSupportedContent a.nav-link {
+    color: #fff;
+}
