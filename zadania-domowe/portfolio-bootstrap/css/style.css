@@ -309,17 +309,17 @@ div#sekcja-opis {
 
 #contact .contact-data {
 /*	width: 50%;*/
-	float: left;
+/*	float: left;*/
 }
 
 #contact .contact-data h2{
-	text-align: left;
+/*	text-align: left;*/
 	font-size: 38px;
 }
 
 #contact .contact-data address{
 	font-style: normal;
-	margin: 72px 0;
+/*	margin: 72px 0;*/
 	line-height: 25px;
 }
 
@@ -335,7 +335,7 @@ div#sekcja-opis {
 	text-align: center;
 	line-height: 38px;
 	border: 1px solid #fff;
-	margin-right: 30px;
+/*	margin-right: 30px;*/
 	font-size: 22px;
 }
 
