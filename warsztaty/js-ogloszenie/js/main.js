@@ -26,16 +26,23 @@ var ogloszenie3 = new Ogloszenie(3, 'krzeslo', 100, true);
 
 var ogloszenia = [ new Ogloszenie(1, 'samochod', 1000, true),ogloszenie2];
 
+var ogloszenia2 = [ogloszenie2, ogloszenie3];
+
 ogloszenia.push(ogloszenie3);
 
 console.log(ogloszenia);
 
 ogloszenie2.czyAktywny();
 
-//function iloscAktywnych(tabOgloszenia) {
-//    for(var i = 0; i < tabOgloszenia.length; i++) {
-//        tabOgloszenia[i].czyAktywny();
-//    }
-//}
-//
-//iloscAktywnych(ogloszenia);
+function wyswietlCzyAktywne(tabOgloszenia) { 
+    for(var i = 0; i < tabOgloszenia.length; i++) {
+        
+        console.log(tabOgloszenia.length);   
+      
+        tabOgloszenia[i].czyAktywny();
+    }
+   
+}
+
+wyswietlCzyAktywne(ogloszenia);
+wyswietlCzyAktywne(ogloszenia2);
