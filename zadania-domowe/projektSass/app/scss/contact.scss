@@ -1,0 +1,53 @@
+@import 'zmienne';
+@import 'mixin';
+
+#contact {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/footer/world-map.jpg);
+    @include backgr-ustawienie;
+
+
+    .section-header {
+
+        h2,
+        p {
+            color: $bialy;
+        }
+    }
+
+    .contact-form {
+
+        .contact-form-column {
+            height: 220px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+
+    input,
+    textarea {
+        text-transform: uppercase;
+        padding: 15px;
+        font-family: $monster-font, $sans-font;
+        border-radius: 5px;
+    }
+
+    textarea {
+        height: 100%;
+    }
+
+
+    input[type="submit"] {
+        background-color: $jasno-niebieski;
+        border: 1px solid $jasno-niebieski;
+        color: #fff;
+        margin-top: 30px;
+        cursor: pointer;
+        @include przejscie;
+    }
+
+    input[type="submit"]:hover {
+        background-color: $bialy;
+        color: $jasno-niebieski;
+    }
+}

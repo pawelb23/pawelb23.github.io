@@ -1,0 +1,40 @@
+@import 'zmienne';
+@import 'mixin';
+
+
+#main-nav {
+    background-color: transparent;
+
+
+    a.navbar-brand {
+        color: $bialy;
+        font-family: $droid-font, $sans-font;
+        font-style: italic;
+        font-size: 2em;
+    }
+
+    .nav-item {
+        a {
+            color: $bialy;
+            text-transform: uppercase;
+            font-family: $monster-font, $sans-font;
+            transition: all .4s;
+            text-align: right;
+        }
+
+        a:hover {
+            color: $jasno-niebieski;
+        }
+    }
+}
+
+#main-nav.scroll {
+    background-color: rgba(14, 216, 214, 0.75);
+
+    .nav-item {
+
+        a:hover {
+            color: $szary;
+        }
+    }
+}

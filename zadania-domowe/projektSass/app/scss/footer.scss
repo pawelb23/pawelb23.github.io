@@ -1,0 +1,29 @@
+@import 'zmienne';
+@import 'mixin';
+
+#main-footer {
+    padding: 10px 0;
+
+
+    .copyright {
+        line-height: 50px;
+    }
+    .footer-nav {
+        line-height: 50px;
+
+        .footer-nav-item {
+            display: inline-block;
+            margin-right: 10px;
+
+            a {
+                color: $szary;
+                cursor: pointer;
+                @include przejscie;
+            }
+
+            a:hover {
+                color: $jasno-niebieski;
+            }
+        }
+    }
+}

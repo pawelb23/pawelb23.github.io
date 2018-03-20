@@ -1,0 +1,15 @@
+#main-footer {
+  padding: 10px 0; }
+  #main-footer .copyright {
+    line-height: 50px; }
+  #main-footer .footer-nav {
+    line-height: 50px; }
+    #main-footer .footer-nav .footer-nav-item {
+      display: inline-block;
+      margin-right: 10px; }
+      #main-footer .footer-nav .footer-nav-item a {
+        color: #777;
+        cursor: pointer;
+        transition: all .4s; }
+      #main-footer .footer-nav .footer-nav-item a:hover {
+        color: #0ed8d6; }

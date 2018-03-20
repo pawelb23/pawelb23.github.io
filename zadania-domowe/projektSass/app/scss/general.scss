@@ -1,0 +1,65 @@
+@import 'zmienne';
+@import 'mixin';
+
+body {
+    color: $szary;
+    font-family: $roboto-font, $sans-font;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $monster-font, $sans-font;
+}
+
+section {
+    padding: 60px 0;
+
+    .section-header {
+        text-align: center;
+        margin-bottom: 70px;
+
+
+        h2 {
+            text-transform: uppercase;
+            font-family: $monster-font, $sans-font;
+            color: $jakis-taki-czarny;
+            margin-bottom: 25px;
+        }
+
+        .section-caption {
+            font-family: $droid-font, $sans-font;
+        }
+    }
+    h3 {
+        font-family: $monster-font, $sans-font;
+        color: $jakis-taki-czarny;
+        font-size: 1.2em;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+.social-link {
+    width: 50px;
+    height: 50px;
+    background-color: $jeszcze-inny-czarnawy;
+    display: inline-block;
+    line-height: 50px;
+    border: 1px solid $jeszcze-inny-czarnawy;
+    text-align: center;
+    color: $bialy;
+    font-size: 1.8em;
+    margin: 5px;
+    border-radius: 50%;
+    @include przejscie;
+}
+
+.social-link:hover {
+    background-color: $jasno-niebieski;
+    color: $bialy;
+    border: 1px solid $jasno-niebieski;
+}

@@ -1,0 +1,8 @@
+@mixin backgr-ustawienie {
+    background-position: center;
+    background-size: cover;
+}
+
+@mixin przejscie {
+    transition: all .4s;
+}

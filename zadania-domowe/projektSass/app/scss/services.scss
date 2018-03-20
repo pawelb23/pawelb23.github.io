@@ -1,0 +1,23 @@
+@import 'zmienne';
+@import 'mixin';
+
+
+#services {
+    .fa {
+        font-size: 3em;
+        width: 80px;
+        height: 80px;
+        background-color: $jasno-niebieski;
+        line-height: 80px;
+        border: 1px solid $jasno-niebieski;
+        border-radius: 50%;
+        color: $bialy;
+        @include przejscie;
+    }
+
+    .fa:hover {
+        background-color: $bialy;
+        color: $jasno-niebieski;
+        transform: rotate(360deg);
+    }
+}

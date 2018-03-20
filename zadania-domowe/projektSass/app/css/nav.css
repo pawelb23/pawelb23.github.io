@@ -1,0 +1,20 @@
+#main-nav {
+  background-color: transparent; }
+  #main-nav a.navbar-brand {
+    color: #fff;
+    font-family: "DroidSerif", sans-serif;
+    font-style: italic;
+    font-size: 2em; }
+  #main-nav .nav-item a {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    transition: all .4s;
+    text-align: right; }
+  #main-nav .nav-item a:hover {
+    color: #0ed8d6; }
+
+#main-nav.scroll {
+  background-color: rgba(14, 216, 214, 0.75); }
+  #main-nav.scroll .nav-item a:hover {
+    color: #777; }
