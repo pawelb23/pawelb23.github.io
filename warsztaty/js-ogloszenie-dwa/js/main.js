@@ -34,7 +34,7 @@ console.log(ogloszenia);
 
 ogloszenie2.czyAktywne();
 
-//console.log('powyższe nieaktywne odnosi się do lini 35 w JavaScript --- poniższe trzy zaś do funkcji');
+console.log('powyższe nieaktywne odnosi się do lini 35 w JavaScript --- poniższe trzy zaś do funkcji');
 
 function wyswietlCzyAktywne(tabOgloszenia) { 
     for(var i = 0; i < tabOgloszenia.length; i++) {
