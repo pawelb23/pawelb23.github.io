@@ -3,19 +3,19 @@
 //console.log('czy działa');
 
 class Ogloszenie {
-    constructor(id, tytul, cena, aktywny) {
+    constructor(id, tytul, cena, aktywne) {
         this.id = id;
         this.tytul = tytul;
         this.cena = cena;
-        this.aktywny = aktywny;
+        this.aktywne = aktywne;
     }
     
-    czyAktywny() {
-        if(this.aktywny) {
-            console.log('jest aktywny');
+    czyAktywne() {
+        if(this.aktywne) {
+            console.log('jest aktywne');
         }
         else {
-            console.log('nieaktywny');
+            console.log('nieaktywne');
         }
     }
 }
@@ -32,14 +32,14 @@ ogloszenia.push(ogloszenie3);
 
 console.log(ogloszenia);
 
-ogloszenie2.czyAktywny();
+ogloszenie2.czyAktywne();
 
 function wyswietlCzyAktywne(tabOgloszenia) { 
     for(var i = 0; i < tabOgloszenia.length; i++) {
         
-//        console.log(tabOgloszenia.length);
+        console.log(tabOgloszenia.length);//ilość ogłoszeń - w sumie są trzy
       
-//        tabOgloszenia[i].czyAktywny();
+        tabOgloszenia[i].czyAktywne();
     }
 }
 
@@ -53,7 +53,7 @@ function iloscOgloszen(tablicaOgl) {
         //console.log(tablicaOgl.length);
         
         
-        if(tablicaOgl[i].aktywny == true) {
+        if(tablicaOgl[i].aktywne == true) {
             licznikAktywnych++;
         } 
         
