@@ -1,6 +1,7 @@
 'use strict';
 /* Efekt Smooth Scroll */
 
+
 $('a[href*="#"]:not([href="#"])').click(function(){
     console.log('test');
     $('html, body').animate( { scrollTop: $(this.hash).offset().top - 74 }, 500 );

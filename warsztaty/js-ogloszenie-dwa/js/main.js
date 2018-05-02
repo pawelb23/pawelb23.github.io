@@ -52,7 +52,7 @@ function iloscOgloszen(tablicaOgl) {
     var licznikAktywnych = 0;
     for(var i = 0; i < tablicaOgl.length; i++) {
        
-        console.log(tablicaOgl.length);
+        console.log(tablicaOgl.length);//ilość pojawi się dopiero kiedy określimy o którą tablicę nam chodzi poniżej (czyli np. ogloszenia, albo ogloszenia2).
         
         
         if(tablicaOgl[i].aktywne == true) {
@@ -66,6 +66,7 @@ function iloscOgloszen(tablicaOgl) {
     return [licznikAktywnych, tablicaOgl.length - licznikAktywnych];
     //tablicaOgl.length - licznikAktywnych] z tej drugiej części wynika ilość nieaktywnych, gdyż 'tablicaOgl.length' to wszystkie ogłoszenia czyli 3 i od tego odejmujęmy 'licznikAktywnych' czyli aktywne ogłoszenia,ich ilość wynosi 2. Z powyższego zapisu wynika, że nieaktywne ogłoszenia to 3 - 2 = 1.
 }
+
 //iloscOgloszen(ogloszenia);
 var wynikIloscOgloszen = iloscOgloszen(ogloszenia);
 //console.log(iloscOgloszen(ogloszenia));
