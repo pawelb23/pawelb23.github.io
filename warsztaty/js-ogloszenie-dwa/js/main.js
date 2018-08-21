@@ -41,6 +41,7 @@ function wyswietlCzyAktywne(tabOgloszenia) {
         console.log(tabOgloszenia.length); //ilość ogłoszeń - w sumie są trzy
 
         tabOgloszenia[i].czyAktywne();
+        
     }
 }
 
