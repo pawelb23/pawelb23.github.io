@@ -1,4 +1,5 @@
 'use strict';
+
 var slideShow = $('.slide-show');
 
 var slideCount = $('.single-slide').length;
@@ -29,7 +30,7 @@ $('.next-slide').click(function () {
 });
 
 function slide(newSlideIndex) {
-    //    if (newSlideIndex < 0 || newSlideIndex > slideCount - 1 // oznacza, że zaczynamy od zerowego indexu, także || blokuje przesuwanie brazków, żeby nie zjeżdzały poniżej zera
+    //    if (newSlideIndex < 0 || newSlideIndex > slideCount - 1 // oznacza, że zaczynamy od zerowego indexu, także || blokuje przesuwanie obrazków, żeby nie zjeżdzały poniżej zera
     //    ) {
     //        return;
     //              
